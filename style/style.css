@@ -22,11 +22,15 @@ body {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 2px 2px 3px black;
+  max-width: 768px;
+  min-width: 320px;
+  width: 100%;
 }
 
 /** Search  */
 .search {
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .search input {
@@ -40,9 +44,6 @@ body {
 /** UserCard  */
 .usercard {
   color: white;
-  width: 100%;
-  max-width: 768px;
-  min-width: 320px;
   font-size: 1.5rem;
 }
 
@@ -78,9 +79,7 @@ body {
 
 /** repos  */
 .repos {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
+  text-align: center;
 }
 
 .repos a {
@@ -91,4 +90,6 @@ body {
   font-size: 1rem;
   border-radius: 5px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0.5);
+  margin: 0.4rem;
+  display: inline-block;
 }
